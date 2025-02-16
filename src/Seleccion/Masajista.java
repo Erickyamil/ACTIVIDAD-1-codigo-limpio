@@ -16,7 +16,7 @@ public class Masajista extends Persona{
 
     @Override
     public void concentrarse() {
-        System.out.println("Concentrandose");
+        System.out.println("Concentrandose en el masaje");
     }
 
     @Override
