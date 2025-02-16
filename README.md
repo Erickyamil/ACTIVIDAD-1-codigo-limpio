@@ -1,4 +1,4 @@
-El codigo corresponde a la actividad 1, Convenciones y código limpio (clean code) basado en  las convenciones de código "Google Java Style Guide" la regla aplicada con base en la guía. El programa en Java busca llevar el control del personal de la selección Mexicana de Futbol, un paquete contiene la clase padre y sus tres clases hijas asi como el Main donde se prueba el codigo.
+El codigo corresponde a la actividad 1, Convenciones y código limpio (clean code) basado en  las convenciones de código "Google Java Style Guide". El programa en Java busca llevar el control del personal de la selección Mexicana de Futbol, un paquete contiene la clase padre y sus tres clases hijas asi como el Main donde se prueba el codigo.
 Los principios aplicados en el codigo fueron:
 
 1. Uso de una clase abstracta Persona con los atributos id, nombre, apellido y edad, 
