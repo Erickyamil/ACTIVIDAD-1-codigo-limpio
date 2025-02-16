@@ -6,16 +6,34 @@ public class Main {
         Futbolista futbolista = new Futbolista(2, "Leny", "Blue", 25, 10, "Delantero");
         Masajista masajista = new Masajista(3, "Maria", "Lopez", 30, "Fisioterapeuta", 5);
 
-        futbolista.concentrarse();
-        futbolista.jugarPartido();
-        futbolista.entrenar();
-        futbolista.viajar();
-
+        System.out.println("\nEntrenador: ");
+        entrenador.getId();
+        entrenador.getNombre();
+        entrenador.getApellido();
+        entrenador.getEdad();
+        entrenador.getIdFederacion();
         entrenador.concentrarse();
         entrenador.dirigirPartido();
         entrenador.dirigirEntrenamiento();
         entrenador.viajar();
+
+        System.out.println("\nFutbolista: ");
+        futbolista.getId();
+        futbolista.getNombre();
+        futbolista.getApellido();
+        futbolista.getEdad();
+        futbolista.getNumeroJugador();
+        futbolista.getPosicion();
+        futbolista.jugarPartido();
+        futbolista.entrenar();
+        futbolista.viajar();
         
+        System.out.println("\nMasajista: "); 
+        masajista.getId();
+        masajista.getNombre();
+        masajista.getApellido();
+        masajista.getEdad();
+        masajista.getProfesion();
         masajista.concentrarse();
         masajista.darMasaje();
         masajista.viajar();
